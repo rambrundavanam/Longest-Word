@@ -1,6 +1,5 @@
-# Longest-Word
-#Given a dictionary of words in a file.
-#display the longest word with meaningful concatenations
+Given a dictionary of words in a file.
+Display the longest word with meaningful concatenations
 
 I read the words file using BufferedInputStream.
 Added at the read words to a hash set for fast search. Hash set provides O(1) search.
