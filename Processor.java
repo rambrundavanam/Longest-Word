@@ -10,18 +10,6 @@ import java.util.HashSet;
 /**
  * @author Ram date:04/19/2016
  */
-/**
- * @author Ram
- *
- */
-/**
- * @author Ram
- *
- */
-/**
- * @author Ram
- *
- */
 public class Processor {
 
 	private HashSet<String> set;
@@ -47,12 +35,12 @@ public class Processor {
 		String buffer = new String(data, "UTF-8").trim();
 		return buffer.split(delims);
 	}
-	
+
 	/**
 	 * @param word
 	 * @param searchInSet
-	 * @return boolean if the word is a valid concatenated word
-	 * (According to our definition of valid concatenated word)
+	 * @return boolean if the word is a valid concatenated word (According to
+	 *         our definition of valid concatenated word)
 	 */
 	public boolean isValidConcatWord(String word, boolean searchInSet) {
 
@@ -80,11 +68,11 @@ public class Processor {
 		}
 		return false;
 	}
-	
+
 	/**
 	 * @param path
-	 * This method processes the file and searches for the 
-	 * concatenated words in the path provided and prints the results
+	 *            This method processes the file and searches for the
+	 *            concatenated words in the path provided and prints the results
 	 */
 	public void processFile(String path) {
 
